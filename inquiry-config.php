@@ -15,7 +15,7 @@ define('IS_DOMESTIC', false);
 
 ## EMAIL Settings
 define('FROM_EMAIL', 'global@sevitsil.com');
-define('TO_EMAIL', 'web@sevitsil.com');
+define('TO_EMAIL', 'global@sevitsil.com');
 define('CC_EMAIL', 'kunj.shah@sevitsil.com');
 define('EMAIL_SUBJECT', 'New Inquiry From '.COMPANY_NAME.' Website');
 define('CATALOGUE_EMAIL_SUBJECT', 'New Catalogue Request From '.COMPANY_NAME.' Website');

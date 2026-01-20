@@ -39,7 +39,7 @@
                   <div class="content">
                     <h3 class="title">India</h3>
                     <p class="text">
-                      <a href="mailTo:web@sevitsil.com">web@sevitsil.com</a><br>
+                      <a href="mailTo:global@sevitsil.com">global@sevitsil.com</a><br>
                       Call Us: <a href="tel:+918141601666">(+91) 81416 01666</a><br>
                      
                     </p>

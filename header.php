@@ -124,7 +124,7 @@
             </div>
             <div class="contact-item">
               <span class="icon"><i class="fa-solid fa-envelope"></i></span>
-              <span class="text"><a href="mailto:web@sevitsil.com">web@sevitsil.com</a></span>
+              <span class="text"><a href="mailto:global@sevitsil.com">global@sevitsil.com</a></span>
             </div>
             <div class="contact-item">
               <span class="icon"><i class="fa-solid fa-phone"></i></span>
@@ -143,7 +143,7 @@
     <div class="header-main">
       <div class="header-main-top text-end">
         <i class="fa fa-phone"></i><a href="tel:+917486006703">+91 74860 06703</a>
-        <i class="fa fa-envelope"></i><a href="mailto:web@sevitsil.com">web@sevitsil.com</a>
+        <i class="fa fa-envelope"></i><a href="mailto:global@sevitsil.com">global@sevitsil.com</a>
       </div>
       <div class="container large">
         <div class="header-area__inner">

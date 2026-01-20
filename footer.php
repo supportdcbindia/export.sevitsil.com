@@ -45,8 +45,8 @@
               </div>
               <div class="information-wrapper">
                 <span>Work with us</span>
-                <a href="mailto:web@sevitsil.com">
-                  <h6 class="title">web@sevitsil.com</h6>
+                <a href="mailto:global@sevitsil.com">
+                  <h6 class="title">global@sevitsil.com</h6>
                 </a>
                 <!-- <a href="mailto:enquiry@sevitsil.com">
                   <h6 class="title">enquiry@sevitsil.com</h6>
