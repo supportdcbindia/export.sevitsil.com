@@ -1,0 +1,153 @@
+<?php include('header.php'); ?>
+
+<style>
+textarea::placeholder {
+    color: #3a3a3a !important;
+}
+
+.error {
+    color: #ff0000;
+    padding: 5px;
+}
+</style>
+
+<!-- page title area start  -->
+<section class="page-title-area">
+    <div class="container large">
+        <div class="page-title-area-inner section-spacing-top">
+            <div class="page-title-wrapper">
+                <h2 class="page-title fade-anim">Packaging</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- page title area end  -->
+
+<section class="work-area-work-page productDetailsPage CustomBorderTop CustomInnerProduct">
+    <div class="work-area-work-page-inner">
+        <div class="works-wrapper-box">
+            <div class="container large">
+                <div class="works-wrapper-8">
+                    <div class="work-box">
+                        <div class="thumb">
+                            <div class="image scale" data-cursor-text="View Product">
+                                <a href="silicone-blister-gaskets.php   "><img src="assets/imgs/inner-pages/products/landing/industries-category/medical-healthcare/silicone-blister-gaskets.webp" alt="Silicone Blister Gasket">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3 class="title"><a href="silicone-blister-gaskets.php   ">Silicone Blister Gasket</a></h3>
+                            <div class="cstm-prod-landing-inquiry-btns">
+                                <a href="silicone-blister-gaskets.php   " class="rr-btn hover-bg-theme cstm-prod-btn viewmore">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Read More</span>
+                                        <span class="text-two">Read More</span>
+                                    </span>
+                                </a>
+                                <a href="javascript:;" class="rr-btn hover-bg-theme cstm-prod-btn click1">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Request a Quote</span>
+                                        <span class="text-two">Request a Quote</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-box">
+                        <div class="thumb">
+                            <div class="image scale" data-cursor-text="View Product">
+                                <a href="bromobutyl-vacuum-non-vacuum-rubber-stopape.php">
+                                    <img src="assets/imgs/inner-pages/products/landing/industries-category/medical-healthcare/bromobutyl-vacuum-non-vacuum-rubber-stopape.webp"
+                                        alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3 class="title">
+                                <a href="bromobutyl-vacuum-non-vacuum-rubber-stopape.php">Bromobutyl Vacuum & Non Vacuum Rubber Stopape</a>
+                            </h3>
+                            <div class="cstm-prod-landing-inquiry-btns">
+                                <a href="bromobutyl-vacuum-non-vacuum-rubber-stopape.php"
+                                    class="rr-btn hover-bg-theme cstm-prod-btn viewmore">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Read More</span>
+                                        <span class="text-two">Read More</span>
+                                    </span>
+                                </a>
+                                <a href="javascript:;" class="rr-btn hover-bg-theme cstm-prod-btn click1">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Request a Quote</span>
+                                        <span class="text-two">Request a Quote</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-box">
+                        <div class="thumb">
+                            <div class="image scale" data-cursor-text="View Product">
+                                <a href="bromobutyl-syringe-stopper.php">
+                                    <img src="assets/imgs/inner-pages/products/landing/industries-category/medical-healthcare/bromobutyl-syringe-stopper.webp" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3 class="title"><a href="bromobutyl-syringe-stopper.php">Bromobutyl Syringe Stopper</a></h3>
+                            <div class="cstm-prod-landing-inquiry-btns">
+                                <a href="bromobutyl-syringe-stopper.php" class="rr-btn hover-bg-theme cstm-prod-btn viewmore">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Read More</span>
+                                        <span class="text-two">Read More</span>
+                                    </span>
+                                </a>
+                                <a href="javascript:;" class="rr-btn hover-bg-theme cstm-prod-btn click1">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Request a Quote</span>
+                                        <span class="text-two">Request a Quote</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="work-box">
+                        <div class="thumb">
+                            <div class="image scale" data-cursor-text="View Product">
+                                <a href="silicone-container-closure.php"><img
+                                        src="./assets/imgs/inner-pages/products/landing/silicone-product-range/silicone-moulded-articles/silicone-container-closure.webp" alt="PEG Tube">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3 class="title"><a href="silicone-container-closure.php">Silicone Container Closure</a></h3>
+                            <div class="cstm-prod-landing-inquiry-btns">
+                                <a href="silicone-container-closure.php"
+                                    class="rr-btn hover-bg-theme cstm-prod-btn viewmore">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Read More</span>
+                                        <span class="text-two">Read More</span>
+                                    </span>
+                                </a>
+                                <a href="javascript:;" class="rr-btn hover-bg-theme cstm-prod-btn click1">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Request a Quote</span>
+                                        <span class="text-two">Request a Quote</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<?php include('footer.php'); ?>
