@@ -68,13 +68,13 @@
                 <div class="footer-widget-box">
                     <h2 class="title">Product Category</h2>
                     <ul class="footer-nav-list">
-                        <li><a href="https://sevitsil.com/silicone-tubing.php">Silicone Tubing</a></li>
-                        <li><a href="https://sevitsil.com/silicone-hoses.php">Silicone Hoses</a></li>
-                        <li><a href="https://sevitsil.com/silicone-extrusion.php">Silicone Extrusion</a></li>
-                        <li><a href="https://sevitsil.com/silicone-single-use-assemblies-system.php">Silicone Single Use Assemblies System</a></li>
-                        <li><a href="https://sevitsil.com/silicone-gasket.php">Silicone Gasket</a></li>
-                        <li><a href="https://sevitsil.com/silicone-moulded-articles.php">Silicone Moulded Articles</a></li>
-                        <li><a href="https://sevitsil.com/silicone-laboratory-products.php">Silicone Laboratory Products</a></li>
+                        <li><a href="https://export.sevitsil.com/silicone-tubing.php">Silicone Tubing</a></li>
+                        <li><a href="https://export.sevitsil.com/silicone-hoses.php">Silicone Hoses</a></li>
+                        <li><a href="https://export.sevitsil.com/silicone-extrusion.php">Silicone Extrusion</a></li>
+                        <li><a href="https://export.sevitsil.com/silicone-single-use-assemblies-system.php">Silicone Single Use Assemblies System</a></li>
+                        <li><a href="https://export.sevitsil.com/silicone-gasket.php">Silicone Gasket</a></li>
+                        <li><a href="https://export.sevitsil.com/silicone-moulded-articles.php">Silicone Moulded Articles</a></li>
+                        <li><a href="https://export.sevitsil.com/silicone-laboratory-products.php">Silicone Laboratory Products</a></li>
                     </ul>
                 </div>
                 <div class="footer-widget-box">

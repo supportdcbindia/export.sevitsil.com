@@ -107,7 +107,7 @@
 					<h3 class="title">10. HOW DO WE USE AND SHARE YOUR PROFESSIONAL/PERSONAL INFORMATION?</h3>
 					<div class="text-wrapper">
 						<p class="text">Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we may inform you about that practice in a revised version of this privacy policy.</p>
-						<p class="text">You may contact us by email at info@sevitsil.com, by visiting https://sevitsil.com/contact.php or by referring to the contact details at the bottom of this document. If you are using an authorized agent to exercise your right to opt-out we may deny a request if the authorized agent does not submit proof that they have been validly authorized to act on your behalf.</p>
+						<p class="text">You may contact us by email at info@sevitsil.com, by visiting https://export.sevitsil.com/contact.php or by referring to the contact details at the bottom of this document. If you are using an authorized agent to exercise your right to opt-out we may deny a request if the authorized agent does not submit proof that they have been validly authorized to act on your behalf.</p>
 					</div>
 				</div>
 				<div class="details-info">
@@ -140,13 +140,13 @@
 					<h3 class="title">OTHER PRIVACY RIGHTS</h3>
 					<div class="text-wrapper">
 						<p class="text">you may object to the processing of your professional/personal data you may request correction of your professional/personal data if it is incorrect or no longer relevant, or ask to restrict the processing of the data you may request to opt-out from future selling of your professional/personal information to third parties. Upon receiving a request to opt-out, we will act upon the request as soon as feasibly possible, but no later than 15 days from the date of the request submission.</p>
-						<p class="text">To exercise these rights, you can contact us by email at info@sevitsil.com, by visiting https://sevitsil.com/contact.php or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.</p>
+						<p class="text">To exercise these rights, you can contact us by email at info@sevitsil.com, by visiting https://export.sevitsil.com/contact.php or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.</p>
 					</div>
 				</div>
 				<div class="details-info">
 					<h3 class="title">11. ADDITIONAL NOTES</h3>
 					<div class="text-wrapper">
-						<p class="text">By using our site, you consent to our online privacy policy. Please also visit our Terms and Conditions section establishing the use, disclaimers, and limitations of liability governing the use of our website at https://sevitsil.com/terms-and-conditions</p>
+						<p class="text">By using our site, you consent to our online privacy policy. Please also visit our Terms and Conditions section establishing the use, disclaimers, and limitations of liability governing the use of our website at https://export.sevitsil.com/terms-and-conditions</p>
 						<p class="text">We plan to implement an eCommerce platform that will be able to take payment, once live, we plan to implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information.</p>
 						<p class="text">We offer the use of a secure server. All supplied sensitive/credit information is transmitted via Secure Socket Layer (SSL) technology and then encrypted into our Payment gateway providers database only to be accessible by those authorized with special access rights to such systems, and are required to keep the information confidential.</p>
 						<p class="text">After a transaction, your private information (credit cards, social security numbers, financials, etc.) may be kept on file for more than 60 days in order to fulfill future orders.</p>
@@ -162,7 +162,7 @@
 				<div class="details-info">
 					<h3 class="title">13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</h3>
 					<div class="text-wrapper">
-						<p class="text">Based on the applicable laws of your country, you may have the right to request access to the professional/personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your professional/personal information, please visit https://sevitsil.com/contact-us</p>
+						<p class="text">Based on the applicable laws of your country, you may have the right to request access to the professional/personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your professional/personal information, please visit https://export.sevitsil.com/contact-us</p>
 					</div>
 				</div>
 				<div class="details-info">

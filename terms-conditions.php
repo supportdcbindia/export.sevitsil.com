@@ -113,7 +113,7 @@
 					<div class="text-wrapper">
 						<p class="text">C1/55, GIDC Phase-II, Dediyasan, Mehsana-384002, Gujarat, India</p>
 						<p class="text">TERMS AND CONDITIONS OF SALE ARE SUBJECT TO CHANGE WITHOUT NOTICE. TO VIEW THE MOST CURRENT PRIVACY POLICY IN RELATION TO OUR CUSTOMER INTERACTIONS, PLEASE VISIT</p>
-						<p class="text">https://sevitsil.com/privacy-policy</p>
+						<p class="text">https://export.sevitsil.com/privacy-policy</p>
 					</div>
 				</div>
 			</div>

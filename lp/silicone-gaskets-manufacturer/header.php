@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Fav Icon -->
-    <link rel="icon" type="image/x-icon" href="https://sevitsil.com/assets/imgs/home-page/logo/sevitsil-fav-icon.webp">
+    <link rel="icon" type="image/x-icon" href="https://export.sevitsil.com/assets/imgs/home-page/logo/sevitsil-fav-icon.webp">
 
     <title>SEVITSIL - Premium Silicone Gaskets Manufacturer in India</title>
 
@@ -20,12 +20,21 @@
     <link rel="stylesheet" href="../assets/css/sidebar-btn.css">
     <link rel="stylesheet" href="../assets/css/style.css">
 
-    <!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5P9PWGW');</script><!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N37XRNH3');</script>
+<!-- End Google Tag Manager -->
 </head>
 
 <body>
 
-<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5P9PWGW"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N37XRNH3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
     <?php include('pop-model.php') ?>
 

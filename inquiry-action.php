@@ -305,14 +305,14 @@ if ($response->result) {
 
                   <p>
                   For more details visit: 
-                  <a href="https://sevitsil.com" target="_blank"><b>www.sevitsil.com</b></a>
+                  <a href="https://export.sevitsil.com" target="_blank"><b>www.sevitsil.com</b></a>
                   </p>
 
                   <p>Thank You<br>
                   Sevitsil Export Team</p>
 
                   <p>
-                    <img src="https://sevitsil.com/assets/imgs/50-years-2.webp" alt="50 Years of Excellence" style="max-width: 100%; height: auto;">
+                    <img src="https://export.sevitsil.com/assets/imgs/50-years-2.webp" alt="50 Years of Excellence" style="max-width: 100%; height: auto;">
                   </p>
                 </body>
               </html>
