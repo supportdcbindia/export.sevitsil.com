@@ -29256,6 +29256,7 @@ section {
   position: relative;
   display: inline-block;
   border: none;
+  /* max-width: 100px; */
 }
 
 .rr-btn .btn-wrap .text-one,
@@ -46318,8 +46319,8 @@ only screen and (max-width: 1919px) {
 }
 
 .header-area .rr-btn {
-  font-size: 16px;
-  padding: 22px 38px;
+  font-size: 14px;
+  padding: 15px 15px;
   letter-spacing: -0.04em;
 }
 
@@ -64998,6 +64999,7 @@ section.about-section-3__area {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  max-width: 100px;
 }
 
 .header__button .ExhibitionsBtn a img {
