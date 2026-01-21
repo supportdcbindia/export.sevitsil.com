@@ -9,7 +9,7 @@
   <title>Silicone Tubing Sevitsil</title>
 
   <!-- Fav Icon -->
-  <link rel="icon" type="image/x-icon" href="assets/imgs/home-page/logo/sevitsil-fav-icon.webp">
+  <link rel="icon" type="image/x-icon" href="assets/imgs/home-page/logo/sevitsil-fav-icon.webp?ver=<?php echo time(); ?>">
 
   <!-- Vendor CSS Files -->
   <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">

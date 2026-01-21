@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/sevitsil-fav-icon.webp">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/sevitsil-fav-icon.webp?ver=<?php echo time(); ?>">
     <title>Silicone Tubing Sevitsil</title>
     <link rel="stylesheet preload" href="assets/css/plugins/fontawesome.css" as="style">
     <!-- <link rel="stylesheet preload" href="assets/css/plugins/swiper.css" as="style"> -->

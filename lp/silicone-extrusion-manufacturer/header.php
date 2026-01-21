@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Fav Icon -->
-    <link rel="icon" type="image/x-icon" href="https://export.sevitsil.com/assets/imgs/home-page/logo/sevitsil-fav-icon.webp">
+    <link rel="icon" type="image/x-icon" href="https://export.sevitsil.com/assets/imgs/home-page/logo/sevitsil-fav-icon.webp?ver=<?php echo time(); ?>">
 
     <title>SEVITSIL - Premium Silicone Extrusion Manufacturer in India</title>
 
