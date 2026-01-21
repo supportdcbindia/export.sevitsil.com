@@ -222,7 +222,7 @@ if ($response->result) {
                 }
 
                 
-                $mail->AddCC('global@sevitsil.com', 'Sevitsil');
+                
                 $mail->AddBCC(DCB_INQUIRY_EMAIL, $subject_line);
                 $mail->addReplyTo($email, $subject_line);
               }
@@ -334,7 +334,7 @@ if ($response->result) {
               if (!empty($cc_email)) {
                 $mail2->AddCC($cc_email, "Kunj Shah");
               }
-              $mail2->AddCC('parth.patel@sevitsil.com', 'Parth Patel');
+              //$mail2->AddCC('parth.patel@sevitsil.com', 'Parth Patel');
 
               // Reply-to
               $mail2->addReplyTo("no-reply@sevitsil.com", "Sevitsil");

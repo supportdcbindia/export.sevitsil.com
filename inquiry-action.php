@@ -222,8 +222,8 @@ if ($response->result) {
                   $mail->AddCC($cc_email, 'Kunj Shah');
                 }
 
-                $mail->AddCC('parth.patel@sevitsil.com', 'Parth Patel');
-                $mail->AddCC('global@sevitsil.com', 'Sevitsil');
+                //$mail->AddCC('parth.patel@sevitsil.com', 'Parth Patel');
+                //$mail->AddCC('global@sevitsil.com', 'Sevitsil');
                 $mail->AddBCC(DCB_INQUIRY_EMAIL, $subject_line);
                 $mail->addReplyTo($email, $subject_line);
               }
