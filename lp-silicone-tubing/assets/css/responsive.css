@@ -1,0 +1,866 @@
+
+
+
+@media only screen and (min-width:1600px) {
+
+
+
+
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .row--20 {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+.video-content iframe {
+    height: 755px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+    .num-title {
+        font-size: 17px;
+    }
+
+    .btn-theme-3 i {
+
+        font-size: 21px;
+    }
+
+    .btn-theme-3 {
+        border: #fff;
+        width: 50px;
+        height: 50px;
+    }
+
+    .custome-container {
+        padding: 0 40px;
+    }
+
+    .wcu-wrap {
+        padding-left: 90px;
+        padding-right: 100px;
+        padding-bottom: 179px;
+        position: relative;
+    }
+
+    .img-bottom {
+        position: absolute;
+        bottom: 99px;
+    }
+
+    .img-bottom img {
+        max-width: 267px;
+        margin: 0 auto;
+    }
+
+
+    .tab-wrapper .tab.tab-left {
+        width: 35%;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width:1199px) {
+.tab-div .tab {
+    padding: 10px 15px;
+}
+
+    .about-content {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .video-content {
+        margin-top: 0px;
+        padding: 35px;
+    }
+
+    .title-style-two .bg-content {
+        font-size: 70px;
+    }
+
+    .title-style-two.mb--40.left {
+    margin-bottom: 10px;
+}
+.bottom-box .icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 19px;
+    margin-right: -26px;
+}
+
+.rts-cta {
+    position: relative;
+    font-size: 12px;
+    padding: 25px 30px 17px;
+}
+
+
+
+
+
+
+    .aboutContent {
+        display: grid;
+        grid-template-columns: inherit;
+        gap: 3px;
+    }
+
+    .aboutContent .desc {
+        padding-bottom: 30px;
+    }
+
+    .img-bottom {
+
+        display: none;
+    }
+
+    .wcu-area-2 {
+        margin-right: 120px;
+        padding: 100px 0 0px;
+        background-size: cover;
+        margin-top: 70px;
+    }
+
+    .wcu-thumb2 {
+        margin-bottom: 30px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-device-width:991px) and (max-device-width:1024px) {
+
+    .about-content {
+        padding-left: 0px;
+    }
+
+.video-content iframe {
+    height:355px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+
+}
+
+@media only screen and (max-width:991px) {
+
+    .business-goal-area-2 .consultancy-style-one .signle-consultancy {
+        width: 100% !important;
+    }
+
+    .why-choose-8-wrapper-content {
+        max-width: 70%;
+        padding-top: 0px;
+    }
+
+    .why-title.mb--40 {
+        margin-bottom: 0px;
+    }
+
+    .custom-container {
+        max-width: 720px;
+
+    }
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width:1024px) {
+
+
+
+    .aboutContent {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+
+    .aboutContent {
+        margin-bottom: 30px;
+    }
+
+    .video-content {
+        padding: 20px;
+    }
+
+    .custome-container {
+        padding: 0 15px;
+    }
+
+    .bottom-box .inner-box {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 28px;
+    }
+
+    .img-bottom {
+        display: none;
+    }
+
+    .wcu-wrap {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 1px;
+        position: relative;
+        padding-top: 35px;
+    }
+
+    .counter-area2 {
+        padding: 50px 30px;
+        transform: unset;
+        margin-bottom: 0;
+        margin-top: 50px;
+    }
+
+    .title-style-two .bg-content {
+        font-size: 80px;
+    }
+
+    .wcu-area-2 {
+        margin-right: 45px;
+        padding: 135px 0 35px;
+        background-size: cover;
+        margin-top: 50px;
+    }
+
+
+.map-information-2-footer .contact-information-main-wrapper .signle-contact-information .information-wrapper .title {
+  font-size:14px;
+  margin: 0;
+  font-weight:600;
+  line-height: 1.5;
+  color: #000;
+}
+
+
+
+
+    .business-goal-area-2 .consultancy-style-one .signle-consultancy {
+        width: 450px;
+        margin-left: 0 !important;
+        /* border-left: 1px solid #dddddd; */
+    }
+
+    .section-padding {
+        padding: 90px 0 50px;
+    }
+
+    .about-wrapper .section-title h2 {
+
+        font-size: 40px;
+    }
+
+    .same-space {
+        padding: 50px 0px;
+    }
+
+
+
+
+    .consultancy-style-one {
+        padding: 40px 15px;
+    }
+
+    .tab-wrapper .tab.tab-left {
+        width: 40%;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .business-goal-area-2 .consultancy-style-one .signle-consultancy {
+        width: 100% !important;
+        margin-left: 0;
+        /* border-left: 1px solid #dddddd; */
+    }
+   .tab_drawer_heading {
+    display: block;
+}
+.tab-div .tabs{
+
+    display: none
+}
+
+
+.video-content iframe {
+    height:401px;
+    width: 100%;
+  
+}
+
+
+    .counter-area2 {
+        padding: 50px 30px;
+        transform: unset;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .wcu-thumb2 {
+        margin-bottom: 0px;
+    }
+
+    .wcu-area-2 {
+        margin-right: 0px;
+        padding: 90px 0 0px;
+        background-size: cover;
+        margin-top: 50px;
+    }
+
+    .why-choose-8-wrapper-content {
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    .present-list ul {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+
+    }
+
+    .custom-container {
+        max-width: 540px;
+    }
+
+    .single-feature-service-wrapper-8 .inner-wrapper p.disc {
+        max-width: 100%;
+        font-size: 15px;
+    }
+
+    .appoinment-main-wrapper-7 {
+        max-width: 100%;
+        padding: 30px;
+        margin-left: 0;
+    }
+
+    .ind-slider .slick-dots {
+        display: flex;
+        justify-content: center;
+    }
+
+
+ .tabs {
+        display: none !important;
+    }
+
+    .tab_drawer_heading {
+        background-color: #1d3983;
+        color: #fff;
+        margin: 0;
+        padding: 5px 20px;
+        display: block;
+        cursor: pointer;
+        user-select: none;
+        border-bottom: 1px solid #dfd3d382;
+        font-size: 17px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3px;
+    }
+
+    .d_active {
+        background-color: #eeeeee;
+        color: #1d3983;
+        font-weight: 600;
+    }
+
+    .tab-div .tab {
+
+        display: none;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 575px) {
+
+    .why-choose-us-thumbnail img {
+        height: auto !important;
+    }
+
+    .header-main-one-wrapper .button-area .rts-btn.btn-primary {
+        display: none !important;
+    }
+     .title-style-five span.pre {
+       display: none;
+  }
+
+.single-feature-service-wrapper-8 {
+    gap: 15px;
+}
+.video-content iframe {
+    height:261px;
+ 
+}
+.video-content .play-btn {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+}
+
+
+
+
+
+
+
+    .ind-slider .slick-dots {
+        bottom: -27px;
+    }
+
+    .title-style-five.why-title.mb--40 {
+        text-align: center;
+    }
+
+
+    .single-feature-service-wrapper-8 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-choose-8-wrapper-content .inner-wrapper {
+        text-align: center;
+    }
+
+
+    .same-space {
+        padding: 30px 0px;
+    }
+
+    .whatsapp-info,
+    .pulse {
+
+        position: fixed;
+        bottom: 20px;
+    }
+
+.title-style-two .title {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+
+
+   .map-information-2-footer .contact-information-main-wrapper .signle-contact-information .icon {
+    height:40px;
+    width:40px;
+    box-shadow: 1px 1px 2px #787676;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.map-information-2-footer .contact-information-main-wrapper .signle-contact-information .icon i {
+  color: #20282D;
+  font-size: 14px;
+}
+
+
+.map-information-2-footer .contact-information-main-wrapper .signle-contact-information {
+  display: grid;
+  margin-bottom: 25px;
+  grid-template-columns: repeat(1, 35px auto);
+  grid-gap: 14px;
+
+
+}
+.map-information-2-footer .contact-information-main-wrapper .signle-contact-information .information-wrapper span {
+  display: block;
+  font-size:17px;
+  margin-bottom:0px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+    .business-goal-area-2 .consultancy-style-one .signle-consultancy {
+        width: 100% !important;
+
+    }
+
+    .consultancy-style-one {
+        padding: 0px 15px;
+    }
+
+    .business-goal-area-2 .consultancy-style-one .signle-consultancy {
+
+        padding: 0 0px !important;
+    }
+
+    .header-transparent {
+        position: unset;
+        background-color: #fff;
+    }
+
+    .about-wrapper .section-title h2 {
+        font-size: 20px;
+    }
+
+    .about-wrapper .section-title h2 {
+        margin-left: 127px;
+    }
+
+    .section-padding {
+        padding: 30px 0 30px;
+    }
+
+    .business-goal-area-2.same-space {
+        padding-top: 20px;
+    }
+
+    .present-list ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 9px;
+    }
+
+    .custom-container {
+        max-width: 100%;
+    }
+
+
+    .why-choose-8-wrapper-content {
+        max-width: 100%;
+        padding: 0px 15px !important;
+    }
+
+    .why-choose-8-wrapper-content h3.title {
+        font-size: 26px;
+    }
+
+    .social-wrapper-one {
+        justify-content: center;
+    }
+
+    .counter-area2 {
+        padding: 30px 0px;
+        transform: unset;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .aboutContent .desc {
+        padding-bottom: 0px;
+    }
+
+    .product-button .btn-primary.btn-them {
+    padding: 10px 9px !important;
+    height: 32px;
+    margin-top: 13px;
+    font-size: 11px;
+}
+  .project-style-one {
+  
+    padding: 25px 15px 50px 15px;
+    border-radius: 20px 10px;
+   
+}
+
+
+
+    .project-style-one .inner-content .title {
+        font-size: 13px;
+    }
+
+    .bottom-box .inner-box {
+        padding: 15px;
+    }
+
+    .bottom-box .inner-box .text {
+
+        text-align: center;
+    }
+
+    .bottom-box .inner-box {
+        gap: 15px;
+    }
+
+    .aboutContent h2 {
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .wcu-wrap {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 1px;
+        position: relative;
+        padding-top: 15px;
+    }
+
+     .title-style-one.center .pre {
+    margin-bottom: 15px;
+  }
+
+
+
+    .wcu-wrap .title-area-between-wrapper-gallery-project {
+        justify-content: flex-start;
+    }
+
+   
+.counter-card_icon img {
+    max-width: 30px;
+}
+.counter-card2 .counter-card_text {
+            font-size: 11px;
+        line-height: 1.5;
+}
+.bottom-box .icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 19px;
+    margin-right: -37px;
+}
+
+.rts-cta {
+    font-size: 15px;
+    padding: 21px 40px 21px;
+   
+}
+.bottom-box .inner-box .text {
+    font-size: 15px;
+    font-weight: 500;
+}
+.aboutContent p {
+    font-size: 14px;
+    text-align: justify;
+}
+ .video-content {
+        padding: 10px;
+    }
+
+
+  .title-style-two .bg-content {
+    font-size: 100px;
+  }
+
+  .video video {
+    width: 100%;
+    height: 307px !important;
+
+  }
+
+  .contact-sec {
+    padding: 40px 0px 0px !important;
+  }
+
+ p {
+
+    font-size: 14px;
+}
+    .map-information-2-footer {
+        padding: 15px 0;
+    }
+
+
+.header-main-one-wrapper .thumbnail a img {
+    max-width: 130px;
+  }
+
+  .rts-call-to-action-area.bg_call-toaction-4 {
+    padding: 18px 0px !important;
+  }
+
+  .thumbnail-business-area-right-two .large-thumbnail {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .consultancy-style-one {
+    background-image: none !important;
+  }
+
+  .business-goal-area-2 .consultancy-style-one .signle-consultancy {
+    margin-left: 0px !important;
+    padding: 0px 0px !important;
+  }
+
+  .mySwiper-blog-one {
+    padding-bottom: 44px !important;
+  }
+
+  .map-information-2-footer .title-main {
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+    margin-top: 0px !important;
+  }
+
+
+
+.header-main-one-wrapper .main-header {
+  display: flex;
+  align-items: center;
+}
+
+.header-main-one-wrapper .main-header .nav-main ul {
+  display: flex;
+  align-items: center;
+}
+
+.header-main-one-wrapper .main-header .button-area {
+  display: flex;
+  align-items: center;
+}
+.tp-footer-2 {
+    padding-bottom:54px;
+}
+
+.header-one .nav-area {
+  margin-right: 80px;
+}
+
+#search,
+#menu-btn {
+  background: #F2F2F2;
+  height: 55px;
+  min-width: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: none;
+}
+
+#search i,
+#menu-btn i {
+  color: #1C2539;
+  font-size: 18px;
+}
+
+.header--sticky.sticky {
+  position: fixed !important;
+  top: 0;
+  display: block;
+  z-index: 999;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 7px 18px rgba(24, 16, 16, 0.0509803922);
+}
+
+.header--sticky.sticky .header-top-area-wrapper {
+  display: none;
+}
+
+.header--sticky.sticky.header-one {
+  background: #fff;
+}
+
+.icon-drop i {
+    font-size: 13px;
+}
+
+.icon-circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.simplicity-text {
+    font-weight:normal;
+    font-size: 14px;
+}
+
+}
+
+
+@media screen and (min-device-width:320px) and (max-device-width:480px) {
+
+    .icon-circle {
+        margin-right: 5px;
+    }
+
+    .simplicity-button {
+        padding: 10px 10px;
+    }
+
+    .present-list ul {
+        gap: 3px;
+    }
+
+.counter-card2 .counter-card_icon:after {
+    left: 5px;
+    border-radius: 5px;
+    top: 5px;
+}
+
+.counter-card2 .counter-card_icon {
+    height: 50px;
+    width: 50px;
+    line-height: 51px;
+    margin-right: 9px;
+}
+.counter-card2 .counter.title {
+    font-size: 16px;
+}
+.counter-area2.text-center.background-image {
+    background-image: none !important;
+}
+.video video {
+    width: 100%;
+    height: 247px !important;
+  }
+
+.video-content iframe {
+    height:161px;
+    width: 100%;
+  
+}
+
+
+
+
+}
+
+
+
+
+ul.tabs li.tab::marker {
+    display: none;
+    border: 0 !important;
+    font-size: 0;
+}

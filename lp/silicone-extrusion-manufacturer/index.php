@@ -1,0 +1,537 @@
+<?php include('header.php') ?>
+
+<div class="bannerSec bgDarkLight">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="bannerContent">
+                    <span>Made in India – Since 1992</span>
+                    <h1>Silicone Extrusion <span>Manufacturer in India</span></h1>
+
+                    <div class="DesktopNone">
+                        <div class="bannerImgWrapper cstmbannerImgWrapper">
+                            <div class="bannerImgItem">
+                                <img src="../assets/images/banner/silicone-extrusion/Image2.jpg" alt="">
+                                <!-- <h5>Silicone Profiles</h5> -->
+                            </div>
+                            <!-- <div class="bannerImgItem">
+                                <img src="../assets/images/high-temp-silicone-tubing.webp" alt="">
+                                <h5>Silicone Strips</h5>
+                            </div> -->
+                        </div>
+                    </div>
+                    <p>From biopharma and healthcare to food, electrical, automotive & industrial sealing, SEVITSIL delivers reliable silicone components designed for performance, safety, and long service life.</p>
+
+                    <ul>
+                        <li> <i class="fa-regular fa-circle-check"></i> 50+ Years of Expertise </li>
+                        <li> <i class="fa-regular fa-circle-check"></i> 35+ Export Presence</li>
+                        <li> <i class="fa-regular fa-circle-check"></i> 12000+ SKUs Products</li>
+                    </ul>
+                    <div class="headerBtn">
+                        <a href="#!" class="click1"> Request a Quote</a>
+                    </div>
+
+                    <small><i class="fa-regular fa-clock"></i> Get Response in 12 Hours</small>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="mobileNone">
+                    <div class="bannerImgWrapper cstmbannerImgWrapper">
+                        <div class="bannerImgItem">
+                            <img src="../assets/images/banner/silicone-extrusion/Image2.jpg" alt="">
+                            <!-- <h5>Silicone Profiles</h5> -->
+                        </div>
+                        <!-- <div class="bannerImgItem">
+                            <img src="../assets/images/high-temp-silicone-tubing.webp" alt="">
+                            <h5>Silicone Strips</h5>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="productSec CustomPeding" id="products">
+    <div class="container">
+
+        <div class="secTitle">
+            <h2>Silicone <span>Extrusion</span> Products</h2>
+            <!-- <p>Comprehensive range of premium silicone tubing solutions for diverse industrial <br> applications</p> -->
+            <div class="GlobalContent cstmProdContent">
+                <ul>
+                    <li>
+                        <p>0.15mm</p>
+                        <span>Minimum ID</span>
+                    </li>
+                    <li>
+                        <p>350mm</p>
+                        <span>Maximum ID</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="productGrid" id="productGrid">
+            <!-- Products will load here -->
+        </div>
+
+        <div class="paginationWrap">
+            <ul class="pagination" id="pagination"></ul>
+        </div>
+
+        <div class="headerBtn">
+            <a href="#!" class="click1">Request a Quote</a>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="GlobalCustomersSec CustomPeding bgDarkLight" id="about-us">
+    <div class="container">
+        <div class="secTitle">
+            <h2>Global Customers <span>Choose Sevitsil</span></h2>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-6">
+                <!-- <div class="GlobalCusImgWrapper">
+                    <div class="GlobalCusImgItem">
+                        <img src="./assets/images/Customers/rajendra-shah.webp" alt="">
+                        <div class="GlobalCusImgContent">
+                            <h5>Mr. Rajendra Shah </h5>
+                            <p>Managing Partner</p>
+                        </div>
+                    </div>
+                    <div class="GlobalCusImgItem">
+                        <img src="./assets/images/Customers/shrenik-shah.webp" alt="">
+                        <div class="GlobalCusImgContent">
+                            <h5>Shrenik Shah </h5>
+                            <p>C.V.O.</p>
+                        </div>
+                    </div>
+                    <div class="GlobalCusImgItem">
+                        <img src="./assets/images/Customers/kunj-shah.webp" alt="">
+                        <div class="GlobalCusImgContent">
+                            <h5>Kunj Shah </h5>
+                            <p>Global Sales Head</p>
+                        </div>
+                    </div>
+                </div> -->
+                <img src="https://sevitsil.com/assets/imgs/home-page/about/about-us-image.webp" class="w-100" />
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="GlobalContent">
+                    <h6>SEVITSIL is a globally trusted silicone extrusion manufacturer, supplying high-performance silicone solutions to customers across Europe, Middle East, Africa, Southeast Asia, and the Americas.</h6>
+
+                    <!-- <ul>
+                        <li>
+                            <p>0.15mm</p>
+                            <span>Minimum ID</span>
+                        </li>
+                        <li>
+                            <p>350mm</p>
+                            <span>Maximum ID</span>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+            <!-- <div class="col-sm-12 col-md-12 mt-3">
+                <div class="GlobalContent">
+                    <p>Our advanced extrusion capabilities range from 0.15 mm ID to 350 mm ID, enabling custom solutions tailored to diverse global applications. From prototype development to high-volume production, SEVITSIL ensures consistent quality, reliable delivery, and long-term performance for international OEMs and distributors. Today, SEVITSIL products are supplied to customers in countries including Germany, France, Italy, Netherlands, Spain, Switzerland, Turkey, UAE, Saudi Arabia, Qatar, Oman, South Africa, Nigeria, Kenya, Singapore, Malaysia, South Korea, Indonesia, Australia, Canada, Mexico, Poland, Egypt, and more.</p>
+                </div>
+            </div> -->
+            <div class="col-sm-12 col-md-12 mt-5">
+                <div class="GlobalPointsGrid">
+
+                    <!-- Manufacturing & Testing -->
+                    <div class="GlobalPointBox">
+                        <h5>Manufacturing & Testing</h5>
+                        <ul>
+                            <li>In-house quality inspection at every production stage</li>
+                            <li>Dimensional accuracy & consistency testing</li>
+                            <li>Material verification for medical, food & industrial grades</li>
+                            <li>Batch-wise quality checks for export shipments</li>
+                        </ul>
+                    </div>
+
+                    <!-- Global Compliance -->
+                    <div class="GlobalPointBox">
+                        <h5>Global Compliance & Standards</h5>
+                        <ul>
+                            <li>Manufactured under ISO-compliant quality systems</li>
+                            <li>Suitable for FDA, USP Class VI & food-contact applications*</li>
+                            <li>Export-ready documentation for international markets</li>
+                            <li>Compliance support as per customer & country requirements</li>
+                        </ul>
+                    </div>
+
+                    <!-- Export Packaging -->
+                    <div class="GlobalPointBox">
+                        <h5>Export Packaging & Protection</h5>
+                        <ul>
+                            <li>Export-grade packaging to prevent contamination & damage</li>
+                            <li>Sealed, labeled & traceable packaging formats</li>
+                            <li>Custom packing options for bulk & OEM shipments</li>
+                            <li>Long-distance shipment tested for durability</li>
+                        </ul>
+                    </div>
+
+                    <!-- International Logistics -->
+                    <div class="GlobalPointBox">
+                        <h5>International Logistics Support</h5>
+                        <ul>
+                            <li>Experience shipping to Europe, Middle East, Africa & Asia</li>
+                            <li>Support for air & sea freight coordination</li>
+                            <li>Documentation assistance: Invoice, Packing List, COO</li>
+                            <li>Reliable lead times for repeat export orders</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="GlobalCustomersSec CustomPeding">
+    <div class="container">
+        <div class="secTitle">
+            <h2>Global <span>Presence</span></h2>
+        </div>
+    </div>
+    <img src="../assets/images/map/map.webp" class="w-100" />
+</div>
+
+<div class="CertificationsSec CustomPeding bgDarkLight" id="certification">
+    <div class="container">
+        <div class="secTitle">
+            <h2>Certifications & <span>Compliance</span></h2>
+            <p>Meeting the highest international quality and safety standards</p>
+        </div>
+        <div class="CertificationsGrid">
+            <?php
+            $nb_elem_per_page = 100;
+            $page = isset($_GET['page']) ? intval($_GET['page'] - 1) : 0;
+            $data = glob("../assets/images/certificates/*.*");
+            $number_of_pages = intval(count($data) / $nb_elem_per_page) + 1;
+            ?>
+            <?php
+            foreach (array_slice($data, $page * $nb_elem_per_page, $nb_elem_per_page) as $p) {
+
+                $mobileCls = "";
+                if ($p == "../assets/images/certificates/06.webp") {
+                    $mobileCls = "hideCertificate";
+                }
+            ?>
+                <div class="CertificationsItem <?php echo $mobileCls; ?>">
+                    <a href="<?php echo $p; ?>" class="fancybox">
+                        <img src="<?php echo $p; ?>" alt="">
+                    </a>
+                </div>
+            <?php
+            }
+            ?>
+        </div>
+    </div>
+</div>
+
+<div class="ExhibitionsSec CustomPeding" id="exhibitions">
+    <div class="container">
+        <div class="secTitle">
+            <h2>Our Presence at Global <span>Industry Exhibitions</span></h2>
+            <p>Showcasing innovation and excellence at leading international trade events</p>
+        </div>
+
+        <div class="ExhibitionsGrid">
+
+            <?php
+            $nb_elem_per_page = 100;
+            $page = isset($_GET['page']) ? intval($_GET['page'] - 1) : 0;
+            $data = glob("../assets/images/exibition/*.*");
+            $number_of_pages = intval(count($data) / $nb_elem_per_page) + 1;
+            ?>
+            <?php
+            foreach (array_slice($data, $page * $nb_elem_per_page, $nb_elem_per_page) as $p) {
+            ?>
+                <div class="ExhibitionsItem">
+                    <div class="ExhibitionsImage">
+                        <img src="<?php echo $p; ?>" alt="">
+                    </div>
+                    <div class="ExhibitionsContent">
+                        <h5><?php echo str_replace("-", " ", str_replace(".webp", "", str_replace("../assets/images/exibition/", "", $p))); ?></h5>
+                    </div>
+                </div>
+            <?php
+            }
+            ?>
+        </div>
+    </div>
+</div>
+
+<div class="brandSecForm CustomPeding bgDarkLight">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="secTitle">
+                    <h2>Brands That <span>Trust Sevitsil</span></h2>
+                    <p>Leading global healthcare and industrial companies rely on our quality products</p>
+                </div>
+
+                <div class="clientsGrid">
+                    <?php
+                    $data = glob("../assets/images/clients/*.*");
+                    ?>
+                    <?php
+                    foreach ($data as $p) {
+                    ?>
+                        <div class="client-item">
+                            <img src="<?php echo $p; ?>" alt="sponsor">
+                        </div>
+                    <?php
+                    } ?>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="brandSecFormWrapper my-custom-modal">
+                    <div class="secTitle">
+                        <h2>Get Export <span>Quote</span></h2>
+                        <p>Fill in your requirements and our team will get back to you</p>
+                    </div>
+                    <form class="form-horizontal form3" action="inquiry-action.php" method="post" novalidate="novalidate">
+                        <div class="row">
+
+                            <!-- Name & Company Name in Half Width -->
+                            <div class="col-md-6 col-12">
+                                <div class="form-group has-feedback">
+                                    <input name="name" id="name" type="text" placeholder="Name" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-12">
+                                <div class="form-group has-feedback">
+                                    <input name="company_name" id="company_name" type="text" placeholder="Company Name" class="form-control">
+                                </div>
+                            </div>
+
+                            <!-- Email Full Width -->
+                            <div class="col-md-12 col-12">
+                                <div class="form-group has-feedback">
+                                    <input name="email" id="email" type="text" placeholder="E-Mail Address" class="form-control">
+                                </div>
+                            </div>
+
+                            <!-- Country Full Width -->
+                            <div class="col-md-12 col-12">
+                                <div class="form-group has-feedback class-feedback">
+                                    <select id="country4" name="country" class="form-control"></select>
+                                    <div class="col-md-4 col-sm-4 col-xs-4 mybottom" style="display: none;">
+                                        <select name="code" id="state4" class="form-control"
+                                            style="padding-right: 0;color: #999;">
+                                            <option value="">+00</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- City & Phone Half Width -->
+                            <div class="col-md-6 col-12">
+                                <div class="form-group has-feedback class-feedback">
+                                    <input name="city" id="city" type="text" placeholder="City" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-12">
+                                <div class="form-group has-feedback">
+                                    <input name="number" id="number" type="tel" placeholder="Phone" maxlength="15"
+                                        minlength="10" class="form-control number21">
+                                </div>
+                            </div>
+
+                            <!-- Requirement Priority Full Width -->
+                            <div class="col-md-12 col-12">
+                                <div class="form-group has-feedback class-feedback">
+                                    <select id="requirement_priority" name="requirement_priority" class="form-control">
+                                        <option value="">Select Requirement Priority</option>
+                                        <option value="Urgent">Urgent</option>
+                                        <option value="1 Week">1 Week</option>
+                                        <option value="2 Week">2 Week</option>
+                                        <option value="3 Week">3 Week</option>
+                                        <option value="4 Week">4 Week</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Product Type & Customer Type Half Width -->
+                            <div class="col-md-6 col-12">
+                                <div class="form-group has-feedback">
+                                    <select id="productType" name="productType" class="form-control">
+                                        <option value="">Select Product Type</option>
+                                        <option value="Silicone Tubing">Silicone Tubing</option>
+                                        <option value="Silicone Extrusion">Silicone Extrusion</option>
+                                        <option value="Silicone Moulded Product">Silicone Moulded Product</option>
+                                        <option value="Silicone Hoses">Silicone Hoses</option>
+                                        <option value="Other Product">Other Product</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-12">
+                                <div class="form-group has-feedback">
+                                    <select id="customerType" name="customerType" class="form-control">
+                                        <option value="">Select Type of Customer</option>
+                                        <option value="OEM">OEM</option>
+                                        <option value="End User">End User</option>
+                                        <option value="Reseller/Trader">Reseller/Trader</option>
+                                        <option value="Other Type">Other Type</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Message Full Width -->
+                            <div class="col-md-12 col-12">
+                                <div class="form-group has-feedback">
+                                    <textarea class="form-control" name="message" id="message"
+                                        placeholder="Requirement"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Captcha Section -->
+                            <div class="col-md-12 col-12">
+                                <div class="form-group has-feedback">
+                                    <div class="row">
+                                        <div class="col-md-6 col-12 position-relative">
+                                            <input name="captcha" id="captcha" placeholder="Captcha Code"
+                                                class="form-control" type="text">
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <img src="../captcha.php" class="capside">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Submit Button Full Width -->
+                            <div class="col-md-12 col-12">
+                                <div class="form-group has-feedback">
+                                    <div class="col-md-12 col-sm-3 col-xs-12">
+                                        <input name="submit" class="submit submitbutton" type="submit"
+                                            value="Submit Now!">
+                                    </div>
+                                </div>
+                            </div>
+                            <p><i class="fa-regular fa-clock"></i> Response within 12 Hours</p>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="GlobalProductGridSec mt-5">
+    <div class="container">
+        <div class="secTitle">
+            <h2>Our Silicone <span>Product Range</span></h2>
+            <p>Engineered for performance, precision & global applications</p>
+        </div>
+
+        <div class="row justify-content-center GlobalProductGrid">
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="ProductGridCard">
+                    <a href="https://sevitsil.com/lp/silicone-extrusion-manufacturer" target="_blank">
+                        <img src="../assets/images/banner/silicone-extrusion/Image2.jpg" alt="">
+                        <h6>Silicone Extrusion</h6>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="ProductGridCard">
+                    <a href="https://sevitsil.com/lp/silicone-gaskets-manufacturer" target="_blank">
+                        <img src="../assets/images/banner/silicone-gaskets/Image1.jpg" alt="">
+                        <h6>Silicone Rubber Gaskets</h6>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="ProductGridCard">
+                    <a href="https://sevitsil.com/lp/silicone-hose-manufacturer" target="_blank">
+                        <img src="../assets/images/banner/silicone-hose/Image3.jpg" alt="">
+                        <h6>Silicone Hoses</h6>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <div class="ProductGridCard">
+                    <a href="https://sevitsil.com/lp/silicon-tubing-manufacturer" target="_blank">
+                        <img src="../assets/images/medical-grade-silicone-tubing.webp" alt="">
+                        <h6>Silicone Tubing</h6>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<?php include('footer.php') ?>
+
+<script>
+    function loadProducts(page = 1, focus = true) {
+        jQuery.ajax({
+            url: "fetch-products.php",
+            type: "POST",
+            data: {
+                page: page
+            },
+            beforeSend: function() {
+                jQuery('#productGrid').html('<p style="text-align:center;">Loading...</p>');
+            },
+            success: function(data) {
+                jQuery('#productGrid').html(data);
+
+                // Smooth scroll to product section
+                if (focus == true) {
+                    jQuery('html, body').animate({
+                        scrollTop: jQuery('#products').offset().top - 50
+                    }, 500);
+                }
+            }
+        });
+    }
+
+    function renderPagination(totalPages, currentPage) {
+        let html = '';
+
+        if (currentPage > 1) {
+            html += `<li><a href="javascript:;" onclick="loadProducts(${currentPage - 1})">«</a></li>`;
+        }
+
+        for (let i = 1; i <= totalPages; i++) {
+            html += `
+        <li class="${i === currentPage ? 'active' : ''}">
+            <a href="javascript:;" onclick="loadProducts(${i})">${i}</a>
+        </li>`;
+        }
+
+        if (currentPage < totalPages) {
+            html += `<li><a href="javascript:;" onclick="loadProducts(${currentPage + 1})">»</a></li>`;
+        }
+
+        if (totalPages > 1) {
+            jQuery('#pagination').html(html);
+        }
+    }
+
+    // Load first page on load
+    jQuery(document).ready(function() {
+        loadProducts(1, false);
+    });
+</script>
