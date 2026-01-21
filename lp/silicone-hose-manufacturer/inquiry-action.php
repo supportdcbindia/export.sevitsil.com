@@ -224,7 +224,7 @@ if ($response->result) {
                   $mail->AddCC($cc_email, $subject_line);
                 }
 
-                $mail->AddCC($cc_email, "parth.patel@sevitsil.com");
+                
                 $mail->AddBCC(DCB_INQUIRY_EMAIL, $subject_line);
                 $mail->addReplyTo($email, $subject_line);
               }
