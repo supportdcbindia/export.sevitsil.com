@@ -4,7 +4,7 @@
   <div class="container">
     <div class="footer-top-inner">
       <div class="footer-logo">
-        <a href="index.php"><img src="assets/imgs/home-page/logo/sevitsil-logo.webp" alt="site-logo"></a>
+        <a href="index.php"><img src="assets/imgs/home-page/logo/sevitsil-logo.webp?ver=<?php echo time(); ?>" alt="site-logo"></a>
       </div>
       <div class="info-text">
         <div class="text-wrapper">

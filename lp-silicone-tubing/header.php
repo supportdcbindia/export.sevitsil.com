@@ -59,7 +59,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-lg-12">
                     <div class="header-transparent-main-wrapper">
                         <a href="index.php" class="logo">
-                            <img src="./assets/images/logo/sevitsil-logo.webp" alt="index">
+                            <img src="./assets/images/logo/sevitsil-logo.webp?ver=<?php echo time(); ?>" alt="index">
                         </a>
                         <div class="nav-area">
                             <ul>

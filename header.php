@@ -88,7 +88,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="offset-widget offset-header">
           <div class="offset-logo">
             <a href="index.php">
-              <img src="assets/imgs/home-page/logo/sevitsil-logo.webp" alt="site logo">
+              <img src="assets/imgs/home-page/logo/sevitsil-logo.webp?ver=<?php echo time(); ?>" alt="site logo">
             </a>
           </div>
           <button id="side-info-close" class="side-info-close">
@@ -138,7 +138,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="header-area__inner">
           <div class="header__logo">
             <a href="index.php">
-              <img src="assets/imgs/home-page/logo/sevitsil-logo.webp" class="normal-logo" alt="Site Logo">
+              <img src="assets/imgs/home-page/logo/sevitsil-logo.webp?ver=<?php echo time(); ?>" class="normal-logo" alt="Site Logo">
             </a>
           </div>
           <div class="header__nav">
