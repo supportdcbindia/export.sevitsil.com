@@ -983,7 +983,7 @@
     <!-- inner menu area desktop start -->
     <div class="rts-sidebar-menu-desktop">
         <a class="logo-1" href="index.php">
-            <img src="./assets/images/logo/sevitsil-logo.webp" alt="index">
+            <img src="./assets/images/logo/sevitsil-logo.webp?ver=<?php echo time(); ?>" alt="index">
         </a>
     </div>
     <!-- mobile menu area start -->

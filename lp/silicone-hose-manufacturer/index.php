@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-6">
                 <div class="bannerContent">
-                    <span>Made in India – Since 1992</span>
+                    <span>Made in India – Since 1975</span>
                     <h1>Silicone Hose <span>Manufacturer in India</span></h1>
 
                     <div class="DesktopNone">
@@ -119,7 +119,7 @@
                         </div>
                     </div>
                 </div> -->
-                <img src="https://sevitsil.com/assets/imgs/home-page/about/about-us-image.webp" class="w-100" />
+                <img src="https://export.sevitsil.com/assets/imgs/home-page/about/about-us-image.webp" class="w-100" />
             </div>
             <div class="col-sm-12 col-md-6">
                 <div class="GlobalContent">
@@ -443,7 +443,7 @@
 
             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                 <div class="ProductGridCard">
-                    <a href="https://sevitsil.com/lp/silicone-extrusion-manufacturer" target="_blank">
+                    <a href="https://export.sevitsil.com/lp/silicone-extrusion-manufacturer" target="_blank">
                         <img src="../assets/images/banner/silicone-extrusion/Image2.jpg" alt="">
                         <h6>Silicone Extrusion</h6>
                     </a>
@@ -452,7 +452,7 @@
 
             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                 <div class="ProductGridCard">
-                    <a href="https://sevitsil.com/lp/silicone-gaskets-manufacturer" target="_blank">
+                    <a href="https://export.sevitsil.com/lp/silicone-gaskets-manufacturer" target="_blank">
                         <img src="../assets/images/banner/silicone-gaskets/Image1.jpg" alt="">
                         <h6>Silicone Rubber Gaskets</h6>
                     </a>
@@ -461,7 +461,7 @@
 
             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                 <div class="ProductGridCard">
-                    <a href="https://sevitsil.com/lp/silicone-hose-manufacturer" target="_blank">
+                    <a href="https://export.sevitsil.com/lp/silicone-hose-manufacturer" target="_blank">
                         <img src="../assets/images/banner/silicone-hose/Image3.jpg" alt="">
                         <h6>Silicone Hoses</h6>
                     </a>
@@ -470,7 +470,7 @@
 
             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                 <div class="ProductGridCard">
-                    <a href="https://sevitsil.com/lp/silicon-tubing-manufacturer" target="_blank">
+                    <a href="https://export.sevitsil.com/lp/silicon-tubing-manufacturer" target="_blank">
                         <img src="../assets/images/medical-grade-silicone-tubing.webp" alt="">
                         <h6>Silicone Tubing</h6>
                     </a>

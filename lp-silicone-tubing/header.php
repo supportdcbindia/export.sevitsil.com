@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/sevitsil-fav-icon.webp">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/sevitsil-fav-icon.webp?ver=<?php echo time(); ?>">
     <title>Silicone Tubing Sevitsil</title>
     <link rel="stylesheet preload" href="assets/css/plugins/fontawesome.css" as="style">
     <!-- <link rel="stylesheet preload" href="assets/css/plugins/swiper.css" as="style"> -->
@@ -36,7 +36,7 @@
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5P9PWGW');</script>
+})(window,document,'script','dataLayer','GTM-N37XRNH3');</script>
 <!-- End Google Tag Manager -->
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -48,7 +48,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <?php include('pop-model.php'); ?>
 
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5P9PWGW"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N37XRNH3"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
@@ -59,7 +59,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-lg-12">
                     <div class="header-transparent-main-wrapper">
                         <a href="index.php" class="logo">
-                            <img src="./assets/images/logo/sevitsil-logo.webp" alt="index">
+                            <img src="./assets/images/logo/sevitsil-logo.webp?ver=<?php echo time(); ?>" alt="index">
                         </a>
                         <div class="nav-area">
                             <ul>

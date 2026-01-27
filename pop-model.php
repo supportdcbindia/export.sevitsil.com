@@ -6,7 +6,7 @@ $companyname = "SEVITSIL";
 $phone = "+91 97277 38001"; /* FORMATE: +91 00000 00000 */
 $whatappphone = $whatappphone1 = "919727738001";/* FORAMTE: 91000000000 */
 $email = "global@sevitsil.com";
-$logo = "assets/images/logo/sevitsil-logo.webp"; /* FORMATE: images/logo3.png */
+$logo = "assets/images/logo/sevitsil-logo.webp?ver=<?php echo time(); ?>"; /* FORMATE: images/logo3.png */
 $message = "Hello Team " . $companyname . ", I was going through your Website, Please connect me for product discussion.";
 ?>
 <div class="sticklist">
