@@ -45,8 +45,8 @@
           </div>
           <div class="col-lg-3">
             <div class="product-des-app-item-title">
-              <h3>47+ Years Expertise</h3>
-              <p>Extrusion & R&D excellence since 1977</p>
+              <h3>51+ Years Expertise</h3>
+              <p>Extrusion & R&D excellence since 1975</p>
             </div>
           </div>
           <div class="col-lg-3">
