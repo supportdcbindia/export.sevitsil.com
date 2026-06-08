@@ -1,0 +1,30 @@
+# SEVITSIL®
+
+> SEVITSIL® is India's leading silicone products manufacturer since 1975 — premium silicone tubing, hoses, extrusions, gaskets, moulded articles and single-use assemblies for medical, pharma, biotech, electrical, food, dairy and industrial applications. US FDA, ISO and USP Class VI certified, exporting to 35+ countries.
+
+## Pages
+
+- [Home](/): SEVITSIL® overview, flagship products, industries served and global presence.
+- [About](/about): 51+ years of silicone engineering, leadership, certifications and brand promise.
+- [Our Story](/about/our-story): Company history and milestones since 1975.
+- [Brand Promise](/about/brand-promise): Quality, compliance and customer commitments.
+- [Key Management](/about/key-management): Leadership team profiles.
+- [Certifications](/about/certifications): ISO, US FDA, USP Class VI and other compliance credentials.
+- [Associations](/about/associations): Industry memberships and partnerships.
+- [Products](/products): Full silicone product catalog — tubing, hoses, extrusions, gaskets, moulded articles and single-use assemblies.
+- [Area of Application](/industries): Areas of application served — medical, pharma & biotech, electrical and more.
+- [Blog](/blog): Articles on silicone applications, manufacturing and industry insights.
+- [Careers](/careers): Open roles and recruitment portal.
+- [Life at SEVITSIL®](/life-at-sevitsil): Culture, workplace and team stories.
+- [Exhibitions](/exhibitions): Trade shows and events.
+- [Contact](/contact): Sales enquiries, addresses and contact details.
+
+## Industry Solutions
+
+- [Medical Grade Solutions](/products/tubing/medical-solutions): Medical-grade silicone tubing and components — USP Class VI, ISO 10993, biocompatible.
+- [Pharma & Biotech Solutions](/products/tubing/pharma-biotech-solutions): Pharma-grade silicone for bioprocessing, transfer lines and single-use assemblies.
+- [Electrical Grade Solutions](/products/tubing/electrical-solutions): High-dielectric silicone insulation sleeves, corona-treater sleeves and electrical components.
+
+## Optional
+
+- [Cookie Policy](/cookie-policy): Cookie usage and consent information.

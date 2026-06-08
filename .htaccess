@@ -1,175 +1,70 @@
-# BEGIN WpFastestCache
-# Modified Time: 12-12-24 11:44:06
-<IfModule mod_rewrite.c>
 RewriteEngine On
-# RewriteBase /
-RewriteCond %{HTTPS} =on
-RewriteCond %{HTTP_HOST} ^sevitsil.com
-# Start WPFC Exclude
-# End WPFC Exclude
-# Start_WPFC_Exclude_Admin_Cookie
-RewriteCond %{HTTP:Cookie} !wordpress_logged_in_[^\=]+\=dcbindia|wpxloginz
-# End_WPFC_Exclude_Admin_Cookie
-RewriteCond %{HTTP_HOST} ^sevitsil.com
-RewriteCond %{HTTP_USER_AGENT} !(facebookexternalhit|WP_FASTEST_CACHE_CSS_VALIDATOR|Twitterbot|LinkedInBot|WhatsApp|Mediatoolkitbot)
-RewriteCond %{HTTP_USER_AGENT} !(WP\sFastest\sCache\sPreload(\siPhone\sMobile)?\s*Bot)
-RewriteCond %{REQUEST_METHOD} !POST
-RewriteCond %{REQUEST_URI} !(\/){2,}
-RewriteCond %{THE_REQUEST} !(\/){2,}
-RewriteCond %{REQUEST_URI} \/$
-RewriteCond %{QUERY_STRING} !.+
-RewriteCond %{HTTP:Cookie} !comment_author_
-RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]
-RewriteCond %{HTTP_USER_AGENT} !^.*\bCrMo\b|CriOS|Android.*Chrome\/[.0-9]*\s(Mobile)?|\bDolfin\b|Opera.*Mini|Opera.*Mobi|Android.*Opera|Mobile.*OPR\/[0-9.]+|Coast\/[0-9.]+|Skyfire|Mobile\sSafari\/[.0-9]*\sEdge|IEMobile|MSIEMobile|fennec|firefox.*maemo|(Mobile|Tablet).*Firefox|Firefox.*Mobile|FxiOS|bolt|teashark|Blazer|Version.*Mobile.*Safari|Safari.*Mobile|MobileSafari|Tizen|UC.*Browser|UCWEB|baiduboxapp|baidubrowser|DiigoBrowser|Puffin|\bMercury\b|Obigo|NF-Browser|NokiaBrowser|OviBrowser|OneBrowser|TwonkyBeamBrowser|SEMC.*Browser|FlyFlow|Minimo|NetFront|Novarra-Vision|MQQBrowser|MicroMessenger|Android.*PaleMoon|Mobile.*PaleMoon|Android|blackberry|\bBB10\b|rim\stablet\sos|PalmOS|avantgo|blazer|elaine|hiptop|palm|plucker|xiino|Symbian|SymbOS|Series60|Series40|SYB-[0-9]+|\bS60\b|Windows\sCE.*(PPC|Smartphone|Mobile|[0-9]{3}x[0-9]{3})|Window\sMobile|Windows\sPhone\s[0-9.]+|WCE;|Windows\sPhone\s10.0|Windows\sPhone\s8.1|Windows\sPhone\s8.0|Windows\sPhone\sOS|XBLWP7|ZuneWP7|Windows\sNT\s6\.[23]\;\sARM\;|\biPhone.*Mobile|\biPod|\biPad|Apple-iPhone7C2|MeeGo|Maemo|J2ME\/|\bMIDP\b|\bCLDC\b|webOS|hpwOS|\bBada\b|BREW.*$ [NC]
-RewriteCond %{DOCUMENT_ROOT}/wp-content/cache/all/$1/index.html -f [or]
-RewriteCond /home/u739845434/domains/sevitsil.com/public_html/wp-content/cache/all/$1/index.html -f
-RewriteRule ^(.*) "/wp-content/cache/all/$1/index.html" [L]
-##### mobile #####
-RewriteEngine On
-# RewriteBase /
-RewriteCond %{HTTPS} =on
-RewriteCond %{HTTP_HOST} ^sevitsil.com
-# Start WPFC Exclude
-# End WPFC Exclude
-# Start_WPFC_Exclude_Admin_Cookie
-RewriteCond %{HTTP:Cookie} !wordpress_logged_in_[^\=]+\=dcbindia|wpxloginz
-# End_WPFC_Exclude_Admin_Cookie
-RewriteCond %{HTTP_HOST} ^sevitsil.com
-RewriteCond %{HTTP_USER_AGENT} !(facebookexternalhit|WP_FASTEST_CACHE_CSS_VALIDATOR|Twitterbot|LinkedInBot|WhatsApp|Mediatoolkitbot)
-RewriteCond %{HTTP_USER_AGENT} !(WP\sFastest\sCache\sPreload(\siPhone\sMobile)?\s*Bot)
-RewriteCond %{REQUEST_METHOD} !POST
-RewriteCond %{REQUEST_URI} !(\/){2,}
-RewriteCond %{THE_REQUEST} !(\/){2,}
-RewriteCond %{REQUEST_URI} \/$
-RewriteCond %{QUERY_STRING} !.+
-RewriteCond %{HTTP:Cookie} !comment_author_
-RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]
-RewriteCond %{HTTP_USER_AGENT} ^.*\bCrMo\b|CriOS|Android.*Chrome\/[.0-9]*\s(Mobile)?|\bDolfin\b|Opera.*Mini|Opera.*Mobi|Android.*Opera|Mobile.*OPR\/[0-9.]+|Coast\/[0-9.]+|Skyfire|Mobile\sSafari\/[.0-9]*\sEdge|IEMobile|MSIEMobile|fennec|firefox.*maemo|(Mobile|Tablet).*Firefox|Firefox.*Mobile|FxiOS|bolt|teashark|Blazer|Version.*Mobile.*Safari|Safari.*Mobile|MobileSafari|Tizen|UC.*Browser|UCWEB|baiduboxapp|baidubrowser|DiigoBrowser|Puffin|\bMercury\b|Obigo|NF-Browser|NokiaBrowser|OviBrowser|OneBrowser|TwonkyBeamBrowser|SEMC.*Browser|FlyFlow|Minimo|NetFront|Novarra-Vision|MQQBrowser|MicroMessenger|Android.*PaleMoon|Mobile.*PaleMoon|Android|blackberry|\bBB10\b|rim\stablet\sos|PalmOS|avantgo|blazer|elaine|hiptop|palm|plucker|xiino|Symbian|SymbOS|Series60|Series40|SYB-[0-9]+|\bS60\b|Windows\sCE.*(PPC|Smartphone|Mobile|[0-9]{3}x[0-9]{3})|Window\sMobile|Windows\sPhone\s[0-9.]+|WCE;|Windows\sPhone\s10.0|Windows\sPhone\s8.1|Windows\sPhone\s8.0|Windows\sPhone\sOS|XBLWP7|ZuneWP7|Windows\sNT\s6\.[23]\;\sARM\;|\biPhone.*Mobile|\biPod|\biPad|Apple-iPhone7C2|MeeGo|Maemo|J2ME\/|\bMIDP\b|\bCLDC\b|webOS|hpwOS|\bBada\b|BREW.*$ [NC]
-RewriteCond %{DOCUMENT_ROOT}/wp-content/cache/wpfc-mobile-cache/$1/index.html -f [or]
-RewriteCond /home/u739845434/domains/sevitsil.com/public_html/wp-content/cache/wpfc-mobile-cache/$1/index.html -f
-RewriteRule ^(.*) "/wp-content/cache/wpfc-mobile-cache/$1/index.html" [L]
-##### mobile #####
-</IfModule>
-<FilesMatch "index\.(html|htm)$">
-AddDefaultCharset UTF-8
-<ifModule mod_headers.c>
-FileETag None
-Header unset ETag
-Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
-Header set Pragma "no-cache"
-Header set Expires "Mon, 29 Oct 1923 20:30:00 GMT"
-</ifModule>
-</FilesMatch>
-# END WpFastestCache
-# BEGIN GzipWpFastestCache
-<IfModule mod_deflate.c>
-AddType x-font/woff .woff
-AddType x-font/ttf .ttf
-AddOutputFilterByType DEFLATE image/svg+xml
-AddOutputFilterByType DEFLATE text/plain
-AddOutputFilterByType DEFLATE text/html
-AddOutputFilterByType DEFLATE text/xml
-AddOutputFilterByType DEFLATE text/css
-AddOutputFilterByType DEFLATE text/javascript
-AddOutputFilterByType DEFLATE application/xml
-AddOutputFilterByType DEFLATE application/xhtml+xml
-AddOutputFilterByType DEFLATE application/rss+xml
-AddOutputFilterByType DEFLATE application/javascript
-AddOutputFilterByType DEFLATE application/x-javascript
-AddOutputFilterByType DEFLATE application/x-font-ttf
-AddOutputFilterByType DEFLATE x-font/ttf
-AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
-AddOutputFilterByType DEFLATE font/opentype font/ttf font/eot font/otf
-</IfModule>
-# END GzipWpFastestCache
-# BEGIN WEBPWpFastestCache
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{HTTP_ACCEPT} image/webp
-RewriteCond %{REQUEST_URI} \.(jpe?g|png)
-RewriteCond %{DOCUMENT_ROOT}/$1.webp -f [or]
-RewriteCond /home/u739845434/domains/sevitsil.com/public_html/$1.webp -f
-RewriteRule ^(.*) "/$1.webp" [L]
-</IfModule>
-<IfModule mod_headers.c>
-Header append Vary Accept env=REDIRECT_accept
-</IfModule>
-AddType image/webp .webp
-# END WEBPWpFastestCache
-# BEGIN LBCWpFastestCache
-<FilesMatch "\.(webm|ogg|mp4|ico|pdf|flv|avif|jpg|jpeg|png|gif|webp|js|css|swf|x-html|xml|woff|woff2|otf|ttf|svg|eot)(\.gz)?$">
-<IfModule mod_expires.c>
-AddType application/font-woff2 .woff2
-AddType application/x-font-opentype .otf
-ExpiresActive On
-ExpiresDefault A0
-ExpiresByType video/webm A10368000
-ExpiresByType video/ogg A10368000
-ExpiresByType video/mp4 A10368000
-ExpiresByType image/avif A10368000
-ExpiresByType image/webp A10368000
-ExpiresByType image/gif A10368000
-ExpiresByType image/png A10368000
-ExpiresByType image/jpg A10368000
-ExpiresByType image/jpeg A10368000
-ExpiresByType image/ico A10368000
-ExpiresByType image/svg+xml A10368000
-ExpiresByType text/css A10368000
-ExpiresByType text/javascript A10368000
-ExpiresByType application/javascript A10368000
-ExpiresByType application/x-javascript A10368000
-ExpiresByType application/font-woff2 A10368000
-ExpiresByType application/x-font-opentype A10368000
-ExpiresByType application/x-font-truetype A10368000
-</IfModule>
-<IfModule mod_headers.c>
-Header set Expires "max-age=A10368000, public"
-Header unset ETag
-Header set Connection keep-alive
-FileETag None
-</IfModule>
-</FilesMatch>
-# END LBCWpFastestCache
-
-
-
-
-
-
-
-# BEGIN WordPress
-# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
-# dynamically generated, and should only be modified via WordPress filters.
-# Any changes to the directives between these markers will be overwritten.
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-# RewriteBase /
-RewriteRule ^index\.php$ - [L]
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-</IfModule>
-
-# END WordPress
+RewriteRule . /index.html [L]
 
 
-Redirect 301 /gallery/  https://sevitsil.com/gallery.php
-Redirect 301 /shop  https://sevitsil.com/products.php
-Redirect 301 /certificate  https://sevitsil.com/certificate.php
-Redirect 301 /privacy-policy/  https://sevitsil.com/privacy-policy.php
-Redirect 301 /timeline_slider_post/1992  https://sevitsil.com
-Redirect 301 /timeline_slider_post/1980  https://sevitsil.com
-Redirect 301 /timeline_slider_post  https://sevitsil.com
-Redirect 301 /whats-new  https://sevitsil.com/whats-new.php
-Redirect 301 /timeline_slider_post/2004  https://sevitsil.com
-Redirect 301 /business-opportunity/  https://sevitsil.com/business-opportunity.php
-Redirect 301 /contact-us/  https://sevitsil.com/business-opportunity.php
-Redirect 301 /tolerance-chart/  https://sevitsil.com/tolerance-chart.php
-Redirect 301 /blogs/  https://sevitsil.com/blog.php
-Redirect 301 /blog/  https://sevitsil.com/blog.php 
-Redirect 301 /silicone-tubing/  https://sevitsil.com/silicone-tubing.php
-Redirect 301 /products/  https://sevitsil.com/products.php
-Redirect 301 /industries/  https://sevitsil.com/industries.php
-
-
+Redirect 301 /contact.php/  https://export.sevitsil.com/contact
+Redirect 301 /blog.php/  https://export.sevitsil.com/blog
+Redirect 301 /exhibition.php/  https://export.sevitsil.com/
+Redirect 301 /silidrain.php/  https://export.sevitsil.com/products/tubing/medical-grade/silidrain/
+Redirect 301 /gallery.php/  https://export.sevitsil.com/products/
+Redirect 301 /industries.php/  https://export.sevitsil.com/industries/
+Redirect 301 /fluorosil.php/  https://export.sevitsil.com/products/tubing/fluorosilicone/fluorosil/
+Redirect 301 /faq.php/  https://export.sevitsil.com/
+Redirect 301 /whats-new.php/  https://export.sevitsil.com/
+Redirect 301 /key-management.php/  https://export.sevitsil.com/key-management/
+Redirect 301 /overmolded-cross.php/  https://export.sevitsil.com/products/assemblies/overmolded-cross/
+Redirect 301 /needle-cover.php/  https://export.sevitsil.com/products/moulded/needle-cover/
+Redirect 301 /uv-sils.php/  https://export.sevitsil.com/products/
+Redirect 301 /silicone-hoses.php/  https://export.sevitsil.com/products/hoses/
+Redirect 301 /tolerance-chart.php/  https://export.sevitsil.com/
+Redirect 301 /silicone-extrusion.php/  https://export.sevitsil.com/products/extrusion/
+Redirect 301 /silipure-tubings.php/  https://export.sevitsil.com/products/tubing/
+Redirect 301 /silibraid-hose.php/  https://export.sevitsil.com/products/tubing/biopharma-grade/silibraid-silicone-braided-hose
+Redirect 301 /exibhition-photos.php/  https://export.sevitsil.com/exhibitions
+Redirect 301 /surgical-mat.php/  https://export.sevitsil.com/products/moulded/surgical-mat/
+Redirect 301 /silicone-sheet.php/  https://export.sevitsil.com/products/extrusion/profiles-sections/silicone-sponge-sheet/
+Redirect 301 /terms-conditions.php/  https://export.sevitsil.com/
+Redirect 301 /silicone-gasket.php/  https://export.sevitsil.com/products/gaskets/
+Redirect 301 /privacy-policy.php/  https://export.sevitsil.com/
+Redirect 301 /medical-healthcare.php/  https://export.sevitsil.com/products/
+Redirect 301 /silicone-tubing.php/  https://export.sevitsil.com/products/tubing/
+Redirect 301 /business-opportunity.php/  https://export.sevitsil.com/
+Redirect 301 /silitrans-tubing.php/  https://export.sevitsil.com/products/tubing/
+Redirect 301 /silitrans-tubing.php/  https://export.sevitsil.com/products/tubing/
+Redirect 301 /silicone-corks-stoppers.php/  https://export.sevitsil.com/products/tubing/biopharma-grade/silicone-corks-stoppers/
+Redirect 301 /silicone-square-strips.php/  https://export.sevitsil.com/products/extrusion/square-strip/silicone-cords-squares-strips/
+Redirect 301 /anti-microbial-tube.php/  https://export.sevitsil.com/products/tubing/medical-grade/anti-microbial-tube/
+Redirect 301 /silicone-menstrual-cup.php/  https://export.sevitsil.com/products/moulded/silicone-menstrual-cup/
+Redirect 301 /silicone-autoclavable-gasket.php/  https://export.sevitsil.com/products/gaskets/autoclavable/silicone-autoclavable-gaskets/
+Redirect 301 /j-sil-tubing.php/  https://export.sevitsil.com/products/tubing/medical-grade/j-sil-tubing/
+Redirect 301 /silicone-product-range.php/  https://export.sevitsil.com/products/
+Redirect 301 /silicone-moulded-articles.php/  https://export.sevitsil.com/products/moulded/
+Redirect 301 /bromobutyl-syringe-stopper.php/  https://export.sevitsil.com/products/
+Redirect 301 /silicone-biological-indicator.php/  https://export.sevitsil.com/products/tubing/biopharma-grade/silicone-biological-indicator/
+Redirect 301 /silicone-flange-gasket.php/  https://export.sevitsil.com/products/gaskets/flange/silicone-flange-gaskets/
+Redirect 301 /pharmaceutical-biotech-laboratory-industry.php/  https://export.sevitsil.com/
+Redirect 301 /silicone-single-use-assemblies-system.php/  https://export.sevitsil.com/products/assemblies/
+Redirect 301 /silicone-conductive-anti-static-sifter-sieves-gasket.php/  https://export.sevitsil.com/products/tubing/biopharma-grade/silicone-conductive-anti-static-sifter-sieves-gasket/
+Redirect 301 /medical-and-healthcare-industry-product-line.php/  https://export.sevitsil.com/products/tubing/medical-grade/
+Redirect 301 /silicone-thermocouple-validation-gasket.php/  https://export.sevitsil.com/products/gaskets/tri-clover/silicone-thermocouple-validation-gasket/
+Redirect 301 /silicone-laboratory-products.php/  https://export.sevitsil.com/products/tubing/biopharma-grade/sililab-laboratory-products/
+Redirect 301 /2022-medical-fair-india.php/  https://export.sevitsil.com/
+Redirect 301 /book-a-meeting-1.php/  https://export.sevitsil.com/
+Redirect 301 /silicone-cables-and-wires.php/  https://export.sevitsil.com/products/extrusion/cables/silicone-cables/
+Redirect 301 /silicone-products-for-renewable-energy.php/  https://export.sevitsil.com/products/
+Redirect 301 /silicone-t-c-mesh-gasket.php/  https://export.sevitsil.com/products/gaskets/tri-clover/silicone-t-c-mesh-gasket/
+Redirect 301 /products.php/silicone-product-range.php/  https://export.sevitsil.com/products/
+Redirect 301 /products.php/  https://export.sevitsil.com/products/
+Redirect 301 /rubber-characteristic-chart.php/  https://export.sevitsil.com/
+Redirect 301 /silicone-molded-products.php/  https://export.sevitsil.com/products/tubing/biopharma-grade/silicone-molded-products/
+Redirect 301 /life-at-sevitsil.php/  https://export.sevitsil.com/life-at-sevitsil/
+Redirect 301 /silicone-knurling-tube.php/  https://export.sevitsil.com/products/tubing/medical-grade/silicone-knurling-tube/
+Redirect 301 /silicone-screen-cleaning-balls.php/  https://export.sevitsil.com/products/moulded/silicone-screen-cleaning-balls/
+Redirect 301 /silicone-dome-valve-seal.php/  https://export.sevitsil.com/products/moulded/silicone-dome-valve-seal/
+Redirect 301 /needle-free-connector-gasket.php/  https://export.sevitsil.com/products/moulded/needle-free-connector-gasket/
+Redirect 301 /silicone-turnover-flange-septa.php/  https://export.sevitsil.com/
+Redirect 301 /silicone-color-coded-tube.php/  https://export.sevitsil.com/products/tubing/medical-grade/silicone-color-coded-tube/
