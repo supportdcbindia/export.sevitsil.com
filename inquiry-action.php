@@ -201,6 +201,7 @@ if (in_array($email, $emailArr)) {
 } else {
     $toEmails[] = $primaryEmail;
     $toEmails[] = "kunj.shah@sevitsil.com";
+    $toEmails[] = "parth.patel@sevitsil.com";
     $bccEmails[] = "dcbrainsinquiry@gmail.com";
 }
 
