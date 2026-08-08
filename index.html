@@ -64,13 +64,13 @@
   <meta name="twitter:title" content="SEVITSIL® – Masters of Premium Range Silicone Products Since 1975">
   <meta property="og:description" content="SEVITSIL® is India&#39;s leading silicone products manufacturer since 1975. Premium silicone tubing, sheets, profiles, and medical devices. US FDA, ISO &amp; USP Class VI certified. Exports to 35+ countries.">
   <meta name="twitter:description" content="SEVITSIL® is India&#39;s leading silicone products manufacturer since 1975. Premium silicone tubing, sheets, profiles, and medical devices. US FDA, ISO &amp; USP Class VI certified. Exports to 35+ countries.">
-  <script type="module" crossorigin src="/assets/index-CCsTVsal.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-W-g5d7YK.js">
-  <link rel="modulepreload" crossorigin href="/assets/icons-vendor-CQ-KZ3ki.js">
-  <link rel="modulepreload" crossorigin href="/assets/react-vendor-BcIstr6X.js">
-  <link rel="modulepreload" crossorigin href="/assets/motion-vendor-ByVxhvWl.js">
-  <link rel="modulepreload" crossorigin href="/assets/ui-vendor-BvnuhjDe.js">
-  <link rel="modulepreload" crossorigin href="/assets/query-vendor-BplRt44i.js">
+  <script type="module" crossorigin src="/assets/index-BRYQbfZ5.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-DS2seoW7.js">
+  <link rel="modulepreload" crossorigin href="/assets/icons-vendor-BR--EhSQ.js">
+  <link rel="modulepreload" crossorigin href="/assets/react-vendor-DMQgLEpZ.js">
+  <link rel="modulepreload" crossorigin href="/assets/motion-vendor-DcKmBnUh.js">
+  <link rel="modulepreload" crossorigin href="/assets/ui-vendor-CAcHaNd6.js">
+  <link rel="modulepreload" crossorigin href="/assets/query-vendor-CeOL13XL.js">
   <link rel="stylesheet" crossorigin href="/assets/index-BXrZPB4u.css">
 </head>
 
@@ -109,11 +109,42 @@
       function googleTranslateElementInit() {
         new google.translate.TranslateElement({ pageLanguage: 'en', autoDisplay: false }, 'google_translate_element');
       }
-      window.setGoogleTranslateLanguage = function (lang) {
-        var combo = document.querySelector('#google_translate_element .goog-te-combo');
-        if (combo) { combo.value = lang; combo.dispatchEvent(new Event('change')); }
+      window.getGoogleTranslateLanguage = function () {
+        var m = document.cookie.match(/(?:^|;\s*)googtrans=([^;]+)/);
+        if (!m) return '';
+        var parts = decodeURIComponent(m[1]).split('/');
+        return parts[2] || '';
       };
-      window.addEventListener('load', function () {
+      function setGoogtransCookie(value) {
+        var host = window.location.hostname;
+        var expires = value
+          ? 'expires=' + new Date(Date.now() + 365 * 864e5).toUTCString() + ';'
+          : 'expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+        var v = value ? encodeURIComponent(value) : '';
+        document.cookie = 'googtrans=' + v + ';' + expires + 'path=/;';
+        document.cookie = 'googtrans=' + v + ';' + expires + 'path=/;domain=' + host + ';';
+        var base = host.split('.').slice(-2).join('.');
+        if (base !== host) {
+          document.cookie = 'googtrans=' + v + ';' + expires + 'path=/;domain=.' + base + ';';
+        }
+      }
+      window.setGoogleTranslateLanguage = function (lang) {
+        if (!lang || lang === 'en') {
+          setGoogtransCookie('');
+          window.location.reload();
+          return;
+        }
+        setGoogtransCookie('/en/' + lang);
+        var combo = document.querySelector('#google_translate_element .goog-te-combo');
+        if (combo) {
+          combo.value = lang;
+          combo.dispatchEvent(new Event('change'));
+        } else {
+          window.location.reload();
+        }
+      };
+
+      (function () {
         var loaded = false;
         function loadGT() {
           if (loaded) return; loaded = true;
@@ -122,12 +153,20 @@
           s.async = true;
           document.body.appendChild(s);
         }
-        if ('requestIdleCallback' in window) {
-          requestIdleCallback(loadGT, { timeout: 4000 });
-        } else {
-          setTimeout(loadGT, 3000);
+        // If a language is already selected, load immediately so the page renders translated
+        if (window.getGoogleTranslateLanguage()) {
+          loadGT();
+          return;
         }
-      });
+        window.addEventListener('load', function () {
+          if ('requestIdleCallback' in window) {
+            requestIdleCallback(loadGT, { timeout: 4000 });
+          } else {
+            setTimeout(loadGT, 3000);
+          }
+        });
+      })();
+
     </script>
   </body>
 </html>

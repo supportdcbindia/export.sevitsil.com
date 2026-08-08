@@ -1,0 +1,1 @@
+import{a as o}from"./rolldown-runtime-DS2seoW7.js";import{cn as a}from"./icons-vendor-BR--EhSQ.js";import{r as u}from"./motion-vendor-DcKmBnUh.js";var e=o(a(),1),m=u(),i=e.createContext(void 0),_=({client:r,children:t})=>(e.useEffect(()=>(r.mount(),()=>{r.unmount()}),[r]),(0,m.jsx)(i.Provider,{value:r,children:t}));export{_ as t};
